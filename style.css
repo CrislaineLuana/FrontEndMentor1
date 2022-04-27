@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --PaleBlue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 375px;
+    height: 550px;
+    box-shadow: 0px 5px 5px 2px rgba(177, 208, 219, 0.8);
+    border-radius: 15px;
+}
+
+.img {
+    width: 375px;
+    height: 180px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main {
+    padding: 25px;
+}
+
+
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-center h1 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.text-center p {
+    color: var(--Desaturatedblue);
+    font-size: 1.4rem;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plan .first {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.plan .first h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.plan .first p {
+    color: var(--Desaturatedblue);
+    font-size: 1.2rem;
+}
+
+
+.plan .btn-change {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--Brightblue);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-payAndOrder{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+
+.btn-payAndOrder .btn {
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.btn-payAndOrder .btn-pay {
+    background-color: hsl(242, 78%, 70%);
+    color: white;
+
+}
